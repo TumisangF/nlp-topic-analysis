@@ -1,0 +1,50 @@
+# =============================================================
+# Data files — too large for GitHub (700MB+ raw, 580MB+ clean)
+# Download from: https://www.kaggle.com/datasets/selener/consumer-complaint-database
+# Place as: data/data.csv
+# =============================================================
+data/
+
+# =============================================================
+# Model artifacts — matrix files exceed GitHub's 100MB limit
+# Regenerate by running the pipeline in order:
+#   1. src/preprocess.py
+#   2. src/vectorize.py
+#   3. src/lda.py
+#   4. src/nmf.py
+# =============================================================
+models/
+
+# =============================================================
+# Virtual environment — never committed to Git
+# Recreate with: pip install -r requirements.txt
+# =============================================================
+nlp_env/
+
+# =============================================================
+# Python cache
+# =============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =============================================================
+# Jupyter notebook checkpoints
+# =============================================================
+.ipynb_checkpoints/
+
+# =============================================================
+# OS files
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# IDE files
+# =============================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

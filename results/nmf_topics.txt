@@ -1,0 +1,27 @@
+NMF Topic Modelling Results
+Optimal n_topics   : 15
+Coherence (c_v)    : 0.6120
+Top words per topic: 10
+
+Topic  1: bank, check, america, money, fund, chase, deposit, fee, transaction, checking
+Topic  2: credit, report, reporting, bureau, removed, score, remove, reported, agency, experian
+Topic  3: debt, collection, company, collect, agency, owe, collector, validation, original, owed
+Topic  4: payment, late, made, month, due, make, day, monthly, date, time
+Topic  5: call, phone, told, called, number, would, said, time, back, asked
+Topic  6: card, credit, chase, charge, capital, one, purchase, citi, use, new
+Topic  7: loan, student, navient, interest, rate, year, school, repayment, pay, forbearance
+Topic  8: inquiry, hard, unauthorized, transunion, credit, authorize, authorized, remove, removed, inquires
+Topic  9: information, letter, sent, dispute, reporting, experian, request, fcra, verified, consumer
+Topic 10: mortgage, home, modification, property, escrow, foreclosure, tax, ocwen, insurance, sale
+Topic 11: equifax, information, breach, data, security, dispute, freeze, personal, file, compromised
+Topic 12: account, closed, opened, open, checking, collection, balance, removed, reported, status
+Topic 13: identity, theft, victim, fraudulent, address, police, name, fraud, report, information
+Topic 14: fargo, well, home, money, fund, checking, branch, check, dealer, complaint
+Topic 15: balance, paid, fee, interest, charge, bill, amount, full, pay, charged
+
+--- Coherence Scores by Topic Count ---
+  n= 5: 0.5727
+  n=10: 0.5791
+  n=15: 0.6120 <-- optimal
+  n=20: 0.5966
+  n=25: 0.5923
