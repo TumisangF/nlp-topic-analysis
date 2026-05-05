@@ -1,10 +1,17 @@
 # NLP Topic Analysis — Consumer Complaint Dataset
 
-A Python NLP pipeline that extracts the most prevalent topics from consumer complaint texts using **Latent Dirichlet Allocation (LDA)** and **Non-negative Matrix Factorization (NMF)**. Built as part of a data science course project simulating a municipal complaint analysis system.
+This project implements an end-to-end Natural Language Processing (NLP) pipeline to extract the most prevalent themes from large-scale consumer complaint texts. The objective is to simulate a real-world municipal use case where decision-makers require structured insights from unstructured citizen feedback.
+
+Two topic modeling approaches are applied:
+- **Latent Dirichlet Allocation (LDA)** on Bag-of-Words features
+- **Non-negative Matrix Factorization (NMF)** on TF-IDF features
+
+Model quality is evaluated using **coherence scores (c_v)** to determine the optimal number of topics.
 
 ---
 
 ## Project Structure
+
 
 ```
 nlp-topic-analysis/
@@ -85,6 +92,37 @@ python nmf.py
 ```
 
 > **Note:** `lda.py` and `nmf.py` run a coherence search over 5 topic counts each (5, 10, 15, 20, 25) and select the optimal number automatically. On large datasets this may take 30–60 minutes per script.
+
+---
+## Methodology
+1. Preprocessing
+Removal of missing or empty records
+Lowercasing
+Removal of punctuation, numbers, URLs, and noise
+Tokenization using regex-based tokenizer
+Stopword removal (including domain-specific extensions)
+
+This results in a clean corpus suitable for statistical modeling.
+
+2. Vectorization
+
+Two approaches were used:
+
+Bag-of-Words (BoW)
+Represents documents as term frequency counts. Used for LDA.
+TF-IDF (Term Frequency–Inverse Document Frequency)
+Weighs terms by importance, reducing the impact of common words. Used for NMF.
+3. Topic Modeling
+LDA (Latent Dirichlet Allocation)
+Probabilistic model assuming documents are mixtures of latent topics.
+NMF (Non-negative Matrix Factorization)
+Matrix factorization approach producing more distinct and interpretable topics.
+4. Model Evaluation
+
+Model quality was assessed using coherence score (c_v):
+
+Measures semantic similarity of top words within a topic
+Higher scores indicate more interpretable topics
 
 ---
 
