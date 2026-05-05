@@ -95,30 +95,29 @@ python nmf.py
 
 ---
 ## Methodology
+
 **1. Preprocessing**
 Removal of missing or empty records
 Lowercasing
 Removal of punctuation, numbers, URLs, and noise
 Tokenization using regex-based tokenizer
 Stopword removal (including domain-specific extensions)
-
 This results in a clean corpus suitable for statistical modeling.
 
 **2. Vectorization**
-
 Two approaches were used:
-
 Bag-of-Words (BoW)
 Represents documents as term frequency counts. Used for LDA.
 TF-IDF (Term Frequency–Inverse Document Frequency)
 Weighs terms by importance, reducing the impact of common words. Used for NMF.
-3. Topic Modeling
+
+**3. Topic Modeling**
 LDA (Latent Dirichlet Allocation)
 Probabilistic model assuming documents are mixtures of latent topics.
 NMF (Non-negative Matrix Factorization)
 Matrix factorization approach producing more distinct and interpretable topics.
-4. Model Evaluation
 
+**4. Model Evaluation**
 Model quality was assessed using coherence score (c_v):
 
 Measures semantic similarity of top words within a topic
