@@ -95,7 +95,7 @@ python nmf.py
 
 ---
 ## Methodology
-1. Preprocessing
+**1. Preprocessing**
 Removal of missing or empty records
 Lowercasing
 Removal of punctuation, numbers, URLs, and noise
@@ -104,7 +104,7 @@ Stopword removal (including domain-specific extensions)
 
 This results in a clean corpus suitable for statistical modeling.
 
-2. Vectorization
+**2. Vectorization**
 
 Two approaches were used:
 
