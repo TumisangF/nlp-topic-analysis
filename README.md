@@ -135,7 +135,45 @@ Higher scores indicate more interpretable topics
 NMF produced sharper, more interpretable topics with a higher coherence score. Key themes identified include student loans, mortgage foreclosure, debt collection, identity theft, unauthorized credit inquiries, and auto finance.
 
 ---
+## Topic Overview and Insights
 
+The extracted topics were grouped into broader thematic categories to improve interpretability and provide actionable insights.
+
+1. Credit Reporting Issues
+
+A significant portion of complaints relates to inaccuracies in credit reports, disputes with credit bureaus, and unauthorized credit inquiries. This indicates systemic challenges in data accuracy and reporting transparency.
+
+2. Debt Collection Practices
+
+Many complaints involve collection agencies, including disputes over outstanding balances, lack of validation, and aggressive collection behavior. This reflects concerns regarding fairness and regulatory compliance.
+
+3. Banking and Account Management
+
+Issues related to bank accounts, transactions, fees, and institution-specific complaints (e.g., Wells Fargo, Bank of America) highlight dissatisfaction with everyday banking operations.
+
+4. Loans and Mortgages
+
+Frequent complaints relate to student loans, mortgage servicing, interest rates, and foreclosure processes. These topics suggest financial stress and challenges in loan servicing systems.
+
+5. Fraud, Identity Theft, and Data Security
+
+A major cluster focuses on identity theft, fraud, and data breaches (e.g., Equifax), indicating growing concerns over personal data protection and cybersecurity.
+
+6. Customer Service and Communication
+
+Recurring complaints about call handling, delays, and unresolved issues point to inefficiencies in customer support systems.
+
+## Key Insight
+
+The primary drivers of dissatisfaction are:
+
+Credit reporting inaccuracies
+Poor financial service transparency
+Inefficient customer service
+Data security concerns
+
+The results demonstrate that NLP techniques can effectively transform unstructured complaint data into actionable insights for decision-makers.
+---
 ## Dependencies
 
 Key libraries used:
