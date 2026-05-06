@@ -1,0 +1,40 @@
+LDA Topic Modelling Results
+Optimal n_topics   : 15
+Coherence (c_v)    : 0.5528
+Top words per topic: 10
+
+======================================================================
+LDA TOPICS (25 Topics)
+======================================================================
+Topic  1: check, back, email, spoke, day, received, money, supervisor, sent, stated, call, manager
+Topic  2: letter, sent, received, mail, stating, court, copy, xxxx xxxx, send, dated, attorney, collector
+Topic  3: debt, law, provide, act, reporting, violation, proof, fair, agency, information, validation, fcra
+Topic  4: document, sale, process, application, house, submitted, date, short, income, closing, union, review
+Topic  5: information, name, address, number, security, personal, social, social security, record, collect debt, personal information, party
+Topic  6: account, xxxx account, experian, account xxxx, dispute, date, reported, closed, creditor, balance, disputed, reporting
+Topic  7: car, vehicle, contract, finance, auto, apartment, financial, purchased, never, signed, new, insurance
+Topic  8: payment, amount, xxxx xxxx, due, monthly, month, payment xxxx, pay, since, current, monthly payment, making
+Topic  9: know, help, never, need, back, want, like, anything, going, say, trying, even
+Topic 10: mortgage, well, fargo, well fargo, tax, insurance, escrow, property, home, mortgage payment, lien, paid
+Topic 11: card, credit, credit card, charge, capital, purchase, citibank, card xxxx, american, chase, express, limit
+Topic 12: xxxx xxxx, inquiry, date, inquiry xxxx, xxxx inquiry, address, name xxxx, following, date xxxx, address xxxx, xxxxxxxx, hard
+Topic 13: call, phone, number, time, calling, phone call, phone number, work, call xxxx, stop, several, multiple
+Topic 14: loan, modification, home, student, foreclosure, student loan, mortgage, servicing, loan modification, program, servicer, note
+Topic 15: debt, collection, paid, bill, amount, agency, xxxx xxxx, owe, collection agency, owed, full, never
+Topic 16: message, left, mother, member, usd, family, voicemail, father, support, xxxx usd, coinbase, ticket
+Topic 17: payment, late, fee, statement, charge, balance, account, late payment, pay, charged, paid, due
+Topic 18: fraud, identity, fraudulent, theft, bankruptcy, account, identity theft, report, filed, police, victim, police report
+Topic 19: year, pay, money, even, home, dollar, work, job, many, ago, paying, though
+Topic 20: past, navient, due, past due, school, nationstar, federal, year, repayment, education, loan, college
+Topic 21: credit, report, credit report, reporting, bureau, information, equifax, credit bureau, removed, score, remove, reported
+Topic 22: information, section, file, transaction, required, promptly, shall, verified, verify, santander, nelnet, possible
+Topic 23: bank, account, chase, checking, money, america, bank america, transaction, fund, deposit, checking account, debit
+Topic 24: service, agent, within, email, website, day, provided, policy, offer, citi, dispute, point
+Topic 25: loan, interest, rate, loan xxxx, interest rate, xxxx xxxx, paid, lender, amount, xxxx loan, principal, payoff
+
+--- Coherence Scores by Topic Count ---
+  n= 5: 0.5259
+  n=10: 0.5256
+  n=15: 0.5528 <-- optimal
+  n=20: 0.5329
+  n=25: 0.5431

@@ -1,0 +1,30 @@
+NMF Topic Modelling Results
+Optimal n_topics   : 15
+Coherence (c_v)    : 0.6467
+Top words per topic: 10
+
+======================================================================
+NMF TOPICS (15 Topics)
+======================================================================
+Topic  1: mortgage, home, modification, loan, property, foreclosure, sale, house, loan modification, document, escrow, tax
+Topic  2: inquiry, hard, hard inquiry, inquiry xxxx, inquiry credit, unauthorized, xxxx inquiry, credit, credit inquiry, authorize, unauthorized inquiry, authorized
+Topic  3: card, credit card, credit, charge, card xxxx, purchase, balance, xxxx credit, score, card account, chase, credit score
+Topic  4: payment, late, late payment, due, paid, late fee, statement, payment xxxx, fee, day, day late, date
+Topic  5: xxxx xxxx, xxxx account, address, account xxxx, account, name, name xxxx, address xxxx, following, number xxxx, date, xxxxxxxx
+Topic  6: well, fargo, well fargo, xxxx well, fargo bank, fargo xxxx, account well, fargo home, loan well, home mortgage, fargo account, home
+Topic  7: identity, theft, identity theft, victim, victim identity, police, fraudulent, police report, fraud, ftc, theft report, fraudulent account
+Topic  8: debt, collection, collection agency, agency, collect, owe, debt collection, collector, collect debt, debt collector, original, owed
+Topic  9: letter, sent, received, sent letter, stating, certified, mail, received letter, letter xxxx, copy, send, xxxx sent
+Topic 10: loan, student, student loan, interest, navient, payment, pay, rate, interest rate, loan xxxx, year, paying
+Topic 11: bank, account, money, check, fund, checking, fee, bank america, america, deposit, checking account, transaction
+Topic 12: mistake appear, appear report, without understanding, many mistake, report without, appear, understanding, mistake, many, without, report, permission
+Topic 13: call, phone, number, calling, time, phone call, phone number, back, work, stop, message, name
+Topic 14: information, reporting, credit reporting, fcra, file, verified, equifax, section, verify, disputed, act, provide
+Topic 15: report, credit report, credit, account, removed, bureau, credit bureau, remove, reporting, report xxxx, experian, xxxx credit
+
+--- Coherence Scores by Topic Count ---
+  n= 5: 0.5727
+  n=10: 0.5791
+  n=15: 0.6467 <-- optimal
+  n=20: 0.5966
+  n=25: 0.5945
