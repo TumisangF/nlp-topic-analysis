@@ -21,11 +21,13 @@ nlp-topic-analysis/
 │   ├── lda.py              # LDA topic modelling with coherence scoring
 │   └── nmf.py              # NMF topic modelling with coherence scoring
 ├── results/
+|   ├── nmf and lda scores.png
 │   ├── lda_topics.txt          # LDA topic output
 │   ├── nmf_topics.txt          # NMF topic output
 │   ├── lda_coherence_plot.png  # LDA coherence curve
 │   └── nmf_coherence_plot.png  # NMF coherence curve
 ├── .gitignore
+├── notebook
 ├── requirements.txt
 └── README.md
 ```
@@ -76,6 +78,7 @@ pip install -r requirements.txt
 Run the scripts in order from the `src/` directory:
 
 ```bash
+run all the cells in the notebook or run the scripts below
 cd src
 
 # Step 1: Preprocess raw text
@@ -130,7 +133,7 @@ Higher scores indicate more interpretable topics
 | Model | Input      | Optimal Topics | Best Coherence (c_v) |
 |-------|------------|----------------|----------------------|
 | LDA   | BoW        | 25             | 0.5473               |
-| NMF   | TF-IDF     | 15             | 0.6120               |
+| NMF   | TF-IDF     | 15             | 0.6467               |
 
 NMF produced sharper, more interpretable topics with a higher coherence score. Key themes identified include student loans, mortgage foreclosure, debt collection, identity theft, unauthorized credit inquiries, and auto finance.
 
